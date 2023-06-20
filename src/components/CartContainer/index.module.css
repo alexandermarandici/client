@@ -1,0 +1,245 @@
+.CartContainer{
+    position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   width: 850px;
+   margin: 150px 30px;
+
+}
+
+.shoppingcartItem h2{
+    position: relative;
+    font-family: 'Montserrat';
+    margin: 91px 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.shoppingcartItem{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.shoppingcartItem a{
+  margin-top: 220px;
+  margin-left: 30px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+   font-size: 20px;
+   line-height: 130%;
+   padding: 15px;
+
+   text-decoration: none;
+   color: black;
+}
+
+
+.orderItem{
+    position: absolute;
+    border: 2px solid #000000;
+    border-radius: 21px;
+    width: 496px;
+    height: 393px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 750px;
+    right: 35px;
+    
+}
+
+.orderItem h3, p, input {
+    margin-left: 25px;
+}
+
+.orderItem h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 130%;
+}
+
+.orderItem p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+}
+
+.formItem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.formItem input{
+    width: 446px;
+   height: 73px;
+   text-align: center;
+   border-radius: 20px;
+   border: 1px solid #000000;
+
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+
+letter-spacing: 0.03em;
+
+color: #929292;
+   
+}
+
+.formItem div {
+    width: 446px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    background: #339933;
+    border-radius: 17px;
+    color: white;
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 130%;
+letter-spacing: 0.03em;
+cursor: pointer;
+
+}
+
+
+.contactItem{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    margin: 350px 50px 65px;
+
+    
+}
+
+.contactItem2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-self: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contItem1 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+   font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.contItem1 a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 70px;
+line-height: 130%;
+text-decoration: none;
+color: black;
+}
+
+.contactItem2 p:nth-child(1){
+    font-family: 'Montserrat';
+  font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+}
+
+.contactItem2 a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 130%;
+text-decoration: none;
+text-decoration-line: underline ;
+color: black;
+}
+
+.contactItem2 p:nth-child(3){
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+}
+
+.contactItem2 p:nth-child(4){
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 130%;
+    
+}
+
+.socialMedia{
+    position: relative;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    padding-left: 51px;
+    text-align: center;
+}
+
+.socialMedia a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 130%;
+}
+
+.imgCarta img{
+   position: relative;
+   margin: 30px auto;
+   height: 550px;
+   width: 1200px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.orderItem p:nth-child(3){
+    position: absolute;
+    right: 73px;
+    top: 105px;
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 130%;
+letter-spacing: 0.03em;
+
+color: #000000;
+
+}
+

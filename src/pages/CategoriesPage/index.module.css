@@ -1,0 +1,128 @@
+.categoriesPage{
+    margin: 303px 33px;
+    
+}
+
+.contactItem{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    margin: 350px 50px 65px;
+
+    
+}
+
+.contactItem2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-self: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contItem1 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+   font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.contItem1 a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 70px;
+line-height: 130%;
+text-decoration: none;
+color: black;
+}
+
+.contactItem2 p:nth-child(1){
+    font-family: 'Montserrat';
+  font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+}
+
+.contactItem2 a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 130%;
+text-decoration: none;
+text-decoration-line: underline ;
+color: black;
+}
+
+.contactItem2 p:nth-child(3){
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+}
+
+.contactItem2 p:nth-child(4){
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 130%;
+    
+}
+
+.socialMedia{
+    position: relative;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    padding-left: 51px;
+    text-align: center;
+}
+
+.socialMedia a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 130%;
+}
+
+.imgCarta img{
+    position: relative;
+    margin: 150px auto;
+    height: 550px;
+    width: auto;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.categoriesText{
+    position: relative;
+    left: 31px;
+    bottom: 171px;
+
+}
+
+.categoriesText h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+letter-spacing: 0.03em;
+color: black;
+
+}

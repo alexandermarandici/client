@@ -1,0 +1,29 @@
+.Categories img{
+    width: 220px;
+    height: 190px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.Categories {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 33px;
+    margin-right: 33px;
+    gap: 25px;
+    top: 350px;
+
+}
+
+.Categories p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
