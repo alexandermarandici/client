@@ -20,6 +20,7 @@ export default function Product({id, title, price, description, image, discont_p
   
   return (
     <div className={s.productClass}>
+      
       <Link to={routeToProduct}>
       <div className={s.productItem}>
         <img src={`http://localhost:3333/${image}`} alt="" />
@@ -29,6 +30,7 @@ export default function Product({id, title, price, description, image, discont_p
             <p>{realPrice}</p>
             <p>{Math.round(sumDiscount)}%</p>
          </div>
+         {title}
         <button onClick={addToCart} className={s.addBtn}>Add to cart</button>
       </div>
       </Link>

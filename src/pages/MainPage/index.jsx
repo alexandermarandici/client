@@ -7,7 +7,7 @@ import AddForm from '../../components/AddForm'
 
 
 
-export default function MainPage() {
+export default function MainPage({id}) {
   return (
     <div className={s.MainPage}>
 

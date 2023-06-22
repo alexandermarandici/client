@@ -1,6 +1,5 @@
 .categoriesPage{
-    margin: 303px 33px;
-    
+    margin: 250px auto;
 }
 
 .contactItem{
@@ -8,7 +7,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    
-    margin: 350px 50px 65px;
+    margin: 20px 50px 65px;
+    bottom: 300px;
 
     
 }
@@ -20,6 +20,7 @@
     justify-self: center;
     flex-direction: column;
     gap: 20px;
+    
 }
 
 .contItem1 h2{
@@ -99,20 +100,20 @@ line-height: 130%;
 
 .imgCarta img{
     position: relative;
-    margin: 150px auto;
+    margin: auto;
     height: 550px;
     width: auto;
- 
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 280px;
  }
 
 
 .categoriesText{
     position: relative;
     left: 31px;
-    bottom: 171px;
+    bottom: 150px;
 
 }
 
@@ -124,5 +125,11 @@ font-size: 40px;
 line-height: 130%;
 letter-spacing: 0.03em;
 color: black;
+
+}
+
+.categoriesContainerbyPage{
+    position: relative;
+    bottom: 250px;
 
 }

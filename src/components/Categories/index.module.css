@@ -10,11 +10,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 33px;
-    margin-right: 33px;
     gap: 25px;
-    top: 350px;
+    margin: 320px 28px;
+    
+}
 
+.Categories a{
+    text-decoration: none;
+    color: black;
 }
 
 .Categories p{

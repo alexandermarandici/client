@@ -5,7 +5,7 @@ import Product from "../Product";
 import s from "./index.module.css"
 
 
-export default function ProdContainer() {
+export default function ProdContainer({discount_price, price}) {
 
     const dispatch = useDispatch();
 
@@ -21,8 +21,6 @@ export default function ProdContainer() {
       <dir className={s.allProductsText}>
         <h1>All Products</h1>
       </dir>
-
-
 
       <div className={s.productContainer}>
         {

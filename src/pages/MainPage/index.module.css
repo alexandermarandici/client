@@ -73,15 +73,15 @@
 
 
 .catalog{
-    
+    position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     align-content: center;
     gap: 50px;
 
-    margin-left: 35px;
-    padding: 20px;
+    padding: 15px 50px;
+    bottom: 70px;
     
 }
 

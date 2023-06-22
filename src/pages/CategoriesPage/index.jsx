@@ -14,8 +14,12 @@ export default function CategoriesPage() {
         <h1>Categories</h1>
       </div>
 
+      <div className={s.categoriesContainerbyPage}>
+           <CategoriesContainer/>
+      </div>
 
-        <CategoriesContainer/>
+        
+        
         <div className={s.contactItem}>
             <div className={s.contItem1}>
                 <h2>Contact</h2>

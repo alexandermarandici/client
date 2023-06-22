@@ -13,7 +13,7 @@ export const reqCategoriesId = category => {
     return dispatch => {
     fetch(`http://localhost:3333/categories/${category}`)
      .then(res => res.json())
-     .then(json => dispatch(loadCategoriesIdAction(json.productsByCategory)))
+     .then(json => dispatch(loadCategoriesIdAction(json.data)))
     }
 }
 
