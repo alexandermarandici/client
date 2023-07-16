@@ -6,9 +6,11 @@ import { useDispatch } from 'react-redux';
 
 export default function CartItem({id, title, price, description, image, discont_price, count }) {
 
-  const discount = discont_price === null ? price : discont_price;
+  let numberNull
 
-  const price_ware = discont_price === true ? discont_price : price;
+  const discountPrice = discont_price === null? price : discont_price;
+  const realPrice = discont_price ? price : numberNull
+
 
   const dispatch = useDispatch();
 
@@ -18,8 +20,8 @@ export default function CartItem({id, title, price, description, image, discont_
       <div className={s.cartInfo}>
         <img src={`http://localhost:3333/${image}`} alt="" />
         <p>{title}</p>
-        <p>{discount * count}€</p>
-        <p>{price_ware}€</p>
+        <p>{discountPrice * count}€</p>
+        <p>{realPrice * count ? realPrice * count : numberNull}</p>
         <span onClick={() => dispatch(deleteCartAction(id))}>X</span>
 
 

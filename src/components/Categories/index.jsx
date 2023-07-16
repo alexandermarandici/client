@@ -1,6 +1,6 @@
 import React from 'react'
 import s from "./index.module.css"
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom';
 
 export default function Categories({id, title, image}) {
 
@@ -8,6 +8,7 @@ export default function Categories({id, title, image}) {
 
     
     <div className={s.Categories} >
+      
 
       <Link to={`/categories/${id}`}>
 
@@ -17,7 +18,6 @@ export default function Categories({id, title, image}) {
       </div>
 
       </Link>
-
     </div>
 
   )

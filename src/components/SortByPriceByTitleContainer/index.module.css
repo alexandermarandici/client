@@ -1,0 +1,37 @@
+.SortByPriceByTitleContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1015px;
+    bottom: 20px;
+    gap: 35px;
+    width: 300px;
+   
+}
+
+.SortByPriceByTitleContainer select{
+    border-radius: 7px;
+    border: 1px solid #000;
+    width: 219px;
+    height: 40px;
+
+    color: #797979;
+font-size: 16px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: 0.48px;
+}
+
+.SortByPriceByTitleContainer span{
+    color: #000;
+font-size: 20px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: 0.6px;
+}
+

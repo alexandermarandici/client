@@ -1,0 +1,29 @@
+
+.check p{
+    color: #000;
+font-size: 20px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: 0.6px;
+}
+
+.check{
+    position: absolute;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 559px;
+    top: 390px;
+}
+
+.check input {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 15px; 
+  background-color: green;
+}
+

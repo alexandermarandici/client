@@ -1,11 +1,17 @@
 import React from 'react'
+import AllSalesContainer from '../../components/AllSaleContainer';
+import SocialMediaContainer from '../../components/SocialMediaContainer';
 
 
 export default function AllSalesPage() {
-
   return (
     <div>
-      AllSalesPage
+  
+       <AllSalesContainer/>
+
+      <div>
+        <SocialMediaContainer/>
+      </div>
     </div>
   )
 }

@@ -17,7 +17,6 @@
     font-size: 18px;
     line-height: 130%;
     cursor: pointer;
-    margin: 0%;
 }
 
 .priceItem{
@@ -59,8 +58,8 @@ color: #FF32A1;
 .addBtn{
     position: absolute;
     visibility: hidden;
-    margin-top: 120px;
-   width: 220px;
+    margin-top: 100px;
+   width: 200px;
    height: 55px;
    background: #F1FFF1;
    border: 2px solid #339933;
@@ -75,8 +74,7 @@ cursor: pointer;
 }
 
 .productItem:hover .addBtn {
- 
-    visibility: visible;
+   visibility: visible;
 }
 
 .productClass a {

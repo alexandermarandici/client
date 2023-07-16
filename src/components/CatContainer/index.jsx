@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { addCategories } from '../../request/reqCategories';
 import Categories from '../Categories';
 import s from "./index.module.css"
+import SocialMediaContainer from '../SocialMediaContainer';
 
 
 export default function CategoriesContainer() {
@@ -15,6 +16,7 @@ export default function CategoriesContainer() {
         dispatch(addCategories)
     }, [])
 
+
   return (
     <div>
 
@@ -24,6 +26,8 @@ export default function CategoriesContainer() {
           categories_state.map(el => <Categories key={el.id} {...el}/>)
         }
        </div>
+
+       <SocialMediaContainer/>
     </div>
   )
 }

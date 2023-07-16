@@ -8,6 +8,7 @@ import CategoriesPage from './pages/CategoriesPage';
 import CartPage from './pages/CartPage';
 import ProductDescrPage from "./pages/ProductDescrPage";
 import ProductByCategoriesPage from './pages/ProductByCategoriesPage';
+import NotFoundPage from './pages/NotFoundPage404';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/categories/:category' element={<ProductByCategoriesPage/>}/>
         <Route path='/cartPage' element={<CartPage/>}/>
         <Route path='/AllProducts/products/:id' element={<ProductDescrPage/>}/>
+        <Route path='*'  element={<NotFoundPage/>}/>
       </Routes>
     </div>
   );
